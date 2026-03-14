@@ -61,9 +61,14 @@ main {
 }
 
 footer {
-  background-color: #004466;
+  background-color: #002b5c; /* dark blue */
   color: white;
   text-align: center;
   padding: 1rem;
   font-size: 0.9rem;
 }
+
+footer p {
+  margin: 0.5rem 0;
+}
+
