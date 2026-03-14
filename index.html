@@ -1,52 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WDD 131 – Dynamic Web Fundamentals – Imola</title>
-    <meta name="description"
-        content="WDD 131 – Dynamic Web Fundamentals, Imola, course landing page with HTML, CSS, and JavaScript.">
-    <meta name="author" content="Imola">
-    <link rel="stylesheet" href="styles/base.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Merriweather&display=swap"
-        rel="stylesheet">
-    <script src="scripts/getdates.js" defer></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WDD 131 – Dynamic Web Fundamentals – Imola</title>
+  <meta name="description" content="WDD 131 – Dynamic Web Fundamentals, Imola, personal profile and web development resources.">
+  <meta name="author" content="Imola">
+  <link rel="stylesheet" href="styles/base.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Merriweather&display=swap" rel="stylesheet">
+  <script src="scripts/getdates.js" defer></script>
 </head>
-
 <body>
-    <header>
-        <span id="course-title">WDD 131 – Dynamic Web Fundamentals</span>
-        <nav>
-            <a href="https://www.linkedin.com/">LinkedIn</a>
-            <a href="https://byupw.instructure.com/">Canvas</a>
-            <a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/1-ne/3?lang=eng&id=p7#p7">Favorite
-                Scripture</a>
-            <a href="#">Final Project</a>
-        </nav>
-    </header>
+  <header>
+    <span id="course-title">WDD 131 – Dynamic Web Fundamentals</span>
+    <nav>
+      <a href="https://www.linkedin.com/">LinkedIn</a>
+      <a href="https://byupw.instructure.com/">Canvas</a>
+      <a href="https://www.churchofjesuschrist.org/study/scriptures">Scripture</a>
+      <a href="#">Final Project</a>
+    </nav>
+  </header>
 
-    <main>
-        <h1>Imola</h1>
-        <section class="card">
-            <h2>About Me</h2>
-            <img src="images/profile.jpeg" alt="Profile picture">
-            <p>Welcome to my WDD 131 course landing page. I am excited to learn dynamic web fundamentals and apply them
-                to real projects.</p>
-        </section>
+  <main>
+    <h1>Imola</h1>
 
-        <section class="card">
-            <h2>My Interests</h2>
-            <img src="images/interests.jpg" alt="Interests image">
-            <p>I enjoy exploring web development, cybersecurity, and creative design. This course will help me
-                strengthen my skills in HTML, CSS, and JavaScript.</p>
-        </section>
-    </main>
+    <!-- About Me Card -->
+    <section class="card">
+      <h2>About Me</h2>
+      <img src="images/profile.jpg" alt="Portrait of Imola">
+      <p>Hello! My name is Imola. I was born in Nigeria and currently live in Abuja. I enjoy learning new things, exploring web development, and spending time with my family.</p>
+      <h3>Abuja, Nigeria</h3>
+      <p>Abuja is the capital city of Nigeria, located in the center of the country. It is known for its modern architecture, cultural diversity, and landmarks such as Aso Rock.</p>
+      <img src="images/nigeria-flag.png" alt="Official Flag of Nigeria">
+    </section>
 
-    <footer>
-        <p>&copy; <span id="currentyear"></span> Imola – Abuja, Nigeria</p>
-        <p id="lastModified"></p>
-    </footer>
+    <!-- Web Dev Resources Card -->
+    <section class="card">
+      <h2>Web Dev Resources</h2>
+      <ul>
+        <li><a href="https://dev.to/">Dev.to Community</a></li>
+        <li><a href="https://www.smashingmagazine.com/">Smashing Magazine</a></li>
+        <li><a href="https://css-tricks.com/">CSS Tricks</a></li>
+        <li><a href="https://www.w3schools.com/">W3Schools</a></li>
+        <li><a href="https://www.udemy.com/">Udemy</a></li>
+        <li><a href="https://picsum.photos/">Lorem Picsum Image Placeholder</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="currentyear"></span> Imola – Abuja, Nigeria</p>
+    <p id="lastModified"></p>
+  </footer>
 </body>
-
 </html>

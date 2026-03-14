@@ -1,70 +1,69 @@
-/* Google Fonts applied */
 body {
-    font-family: 'Roboto', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #fdfdfd;
-    color: #333;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fdfdfd;
+  color: #333;
 }
 
 header {
-    background-color: #004466;
-    color: white;
-    padding: 1rem;
-    text-align: center;
+  background-color: #004466;
+  color: white;
+  padding: 1rem;
+  text-align: center;
 }
 
 #course-title {
-    display: block;
-    font-size: 1.5rem;
-    font-weight: bold;
+  display: block;
+  font-size: 1.5rem;
+  font-weight: bold;
 }
 
 nav {
-    display: flex;
-    justify-content: center;
-    gap: 1rem;
-    margin-top: 0.5rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 0.5rem;
 }
 
 nav a {
-    color: white;
-    text-decoration: none;
-    padding: 0.5rem;
-    transition: background-color 0.3s ease;
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem;
+  transition: background-color 0.3s ease;
 }
 
 nav a:hover {
-    background-color: #006699;
-    border-radius: 4px;
+  background-color: #006699;
+  border-radius: 4px;
 }
 
 main {
-    max-width: 900px;
-    margin: 2rem auto;
-    padding: 1rem;
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 1rem;
 }
 
 .card {
-    background-color: #f0f8ff;
-    padding: 1rem;
-    margin-bottom: 1.5rem;
-    border-radius: 8px;
-    display: grid;
-    grid-template-columns: 150px 1fr;
-    gap: 1rem;
-    align-items: center;
+  background-color: #f0f8ff;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  border-radius: 8px;
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  gap: 1rem;
+  align-items: start;
 }
 
 .card img {
-    width: 100%;
-    border-radius: 8px;
+  width: 100%;
+  border-radius: 8px;
 }
 
 footer {
-    background-color: #004466;
-    color: white;
-    text-align: center;
-    padding: 1rem;
-    font-size: 0.9rem;
+  background-color: #004466;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
 }
