@@ -1,0 +1,37 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+}
+
+header, main, footer {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+}
+
+nav a {
+  padding: 0.5rem;
+  text-decoration: none;
+  color: #333;
+}
+
+nav a:hover {
+  background-color: #ddd;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+figure {
+  background: #f9f9f9;
+  padding: 1rem;
+  text-align: center;
+}
